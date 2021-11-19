@@ -22,6 +22,7 @@
 <body>
     <header class="header">
        <!--Верхняя линия--> 
+        <div class="container header-container">
          <nav class="header-navigation">
         <a class="header-logo link" href=""><span class="header-web">Web</span><span class="header-studio">Studio</span></a>
         
@@ -37,17 +38,23 @@
             </li>
          </ul>
          </nav>
+         <div class="header-connect">
       <a class="header-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a>
       <a class="header-tel link" href="tel:+380961111111">+38 096 111 11 11</a>
+        </div>
+      </div>
     </header>
 <main>
     <!--Шапка-->
     <section class="hero">
-    <h1 class="hero-title">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
-    <button class="hero-btn" type="button">Заказать услугу</button>
+        <div class="container hero-container">
+           <h1 class="hero-title">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
+           <button class="hero-btn" type="button">Заказать услугу</button>
+        </div>
     </section>
     <!--Особенности-->
     <section class="peculiarities">
+        <div class="container peculiarities-container">
         <ul class="list peculiarities-list">
             <li class="item peculiarities-item ">
                 <h3 class="peculiaritie-title">ВНИМАНИЕ К ДЕТАЛЯМ</h3>
@@ -68,10 +75,11 @@
             <p class="peculiaritie-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
             </li>
         </ul>
-
+        </div>
     </section>
     <!--Чем мы занимаемся-->
      <section class="profiles">
+        <div class="container">
         <h2 class="profiles-title">Чем мы занимаемся</h2>
         <ul class="list profiles-list">
             <li class="item profiles-item">
@@ -98,19 +106,20 @@
                     height="294" 
                 />
              </li>
-    </ul>
+         </ul>
+        </div>
     </section>
     <!--Наша команда-->
     <section class="command">
-     <h2 class="command-title">Наша команда</h2>
-     <ul class=" list command-list">
-         <li class="command-item">
-            <img
-             src="./images/employee1.jpg"
-             alt="мужчина в коричневой рубашке"
-             width="270"
-             height="260"
-            />
+        <div class="container">
+            <h2 class="command-title">Наша команда</h2>
+            <ul class=" list command-list">
+               <li class="command-item">
+                <img src="./images/employee1.jpg"
+                 alt="мужчина в коричневой рубашке" 
+                 width="270" 
+                 height="260" />
+           
             <h3 class="command-titles">Игорь Демьяненко</h3>
             <p lang="en" class="command-text">Product Designer</p>
          </li>
@@ -135,37 +144,38 @@
             <p lang="en" class="command-text">Marketing</p>
          </li>
          <li  class="command-item">
-            <img
-            src="./images/employee4.jpg"
-            alt="мужчина в черной рубашке"
-            width="270"
-            height="260"
-            />
+            <img src="./images/employee4.jpg" alt="мужчина в черной рубашке" width="270" height="260" />
             <h3 class="command-titles">Михаил Ермаков</h3>
             <p lang="en" class="command-text">UI Designer</p>
          </li>
     </ul>
+    </div>
     </section>
 </main>
 <footer class="footer">
+    <section class="footer-section" >
+    <div class="container">
+        <h2 class="visually-hidden">FOOTER</h2>
     <a class="footer-logo link" href=""><span class="footer-web">Web</span><span class="footer-studio">Studio</span></a>
-    <address>
+    <address class="address">
         <ul class="footer-list list">
-            <li>
+            <li class="footer-item-adress>">
                 <a class="link footer-adress " href="https://goo.gl/maps/9Tbaq5ULYDooVJVK9"
                 target="_blank"
                 rel="noopener noreferrer"
                 >г. Киев, пр-т Леси Украинки, 26</a
                 >
             </li>
-            <li>
+            <li class="footer-item-mail">
                 <a class="link footer-mail" href="mailto:info@example.com">info@example.com</a>
             </li>
-            <li>
+            <li class="footer-item-tel">
                 <a class="link footer-tel" href="tel:+380991111111">+38 099 111 11 11</a>
             </li>
         </ul>
     </address>
+    </div>
+    </section>
 </footer>    
 </body>
 </html>
